@@ -4,7 +4,7 @@ import javax.validation.constraints.NotNull;
 
 public class UpdateStudentRequest {
 	@NotNull(message="Student ID is Required")
-	private long id;
+	private Long id;
 	
 	private String firstName;
 	
